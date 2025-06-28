@@ -9,7 +9,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logging.info('Iniciando el bot....')
 #Se cambia el texto de Start para que presente opciones!!!
 async def start_command(update:Update, context):
-    await update.message.reply_text('Hola!!! como estas? Soy el bot miguel a tu servicio para darte asistencia mecanica \n Si necesitas servicio mecanico marca 01 \n Si necesitas hablar con un operador oprime 02')
+    await update.message.reply_text('Hola!!! como estas? Soy el bot miguel a tu servicio para darte asistencia en preguntas frecuentes \n Si no entiendes como insertar datos de alumnos, docentes, materias marca 01 \n Si no puedes encontrar la forma de generar listados con datos de alumnos, cursos, escuelas  oprime 02 \n Si necesitas comunicarte con un asistente oprime 03')
 async def help_command(update:Update, context):
     await update.message.reply_text('Escribe tu problema y tratare de darle solucion') 
     
